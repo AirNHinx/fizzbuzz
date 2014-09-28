@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('.initiate').on('click', function() {
 		var sum = 0;
-		for (i=1; i<=100; i++) {
+		for (i=1; i<=999; i++) {
 			if ((i%3) === 0) {
 				if ((i%5) === 0) {
 					$('.results').append('<p>FIZZBUZZ!!</p>');	
