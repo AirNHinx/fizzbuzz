@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.results').on('click', '.initiate', function() {
+	$('.initiate').on('click', function() {
 		var sum = 0;
 		for (i=1; i<=100; i++) {
 			if ((i%3) === 0) {
